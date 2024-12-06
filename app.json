@@ -33,10 +33,21 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-font",
-      {
-        "fonts": ["./assets/fonts/Outfit-Regular.ttf"]
-      }
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Outfit-Regular.ttf",
+            "./assets/fonts/Outfit-Medium.ttf",
+            "./assets/fonts/Outfit-SemiBold.ttf",
+            "./assets/fonts/Outfit-Thin.ttf",
+            "./assets/fonts/Outfit-ExtraLight.ttf",
+            "./assets/fonts/Outfit-Light.ttf",
+            "./assets/fonts/Outfit-Bold.ttf",
+            "./assets/fonts/Outfit-ExtraBold.ttf"
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
